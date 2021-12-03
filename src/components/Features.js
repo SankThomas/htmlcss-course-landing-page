@@ -5,7 +5,7 @@ export default function Features() {
   const [tabs] = useState(features)
   const [value, setValue] = useState(0)
 
-  const { id, title, desc, image } = tabs[value]
+  const { title, desc, image } = tabs[value]
 
   return (
     <>
